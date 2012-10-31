@@ -12,7 +12,7 @@
             },
             options: {
                 profile: {
-                    name: accessToken.full_name,
+                    name: accessToken.user.full_name,
                     picture: accessToken.user.profile_picture
                 }
             }
